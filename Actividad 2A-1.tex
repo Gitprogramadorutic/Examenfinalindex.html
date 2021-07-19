@@ -1,0 +1,88 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanich]{}
+
+\title{2A-1 ACTIVIDAD- Tabular Archivo}
+\author{Antonia Dominguez}
+\date{21 de Junio 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{Ejercicio}
+
+Para obtener una simple tabla sin lineas\\
+
+\begin{tabular}{l c r}
+
+ 1 & 2 & 3 \\
+ 4 & 5 & 6 \\
+ 7 & 8 & 9 \\   
+\end{tabular}
+
+\section{Ejercicio}
+
+Para obtener esta tabla en la añadimos algunas lineas verticales:\\
+
+\begin{tabular}{l|c||r}
+  1 & 2 & 3 \\
+  4 & 5 & 6 \\
+  7 & 8 & 9 \\
+\end{tabular}
+
+\section{Ejercicio}
+Ahora con lineas Horizontales: Superior e Inferior \\
+
+\begin{tabular}{l|c||r|}
+\hline
+   1 & 2 & 3 \\
+   4 & 5 & 6 \\
+   7 & 8 & 9 \\
+ \hline
+\end{tabular}
+
+\section{Ejercicio}
+Ahora añadir lineas centradas entre todas las filas (usamos el entorno center)\\
+\begin{center}
+\begin{tabular}{l|c||r|}
+\hline
+   10 & 22 & 33 \\ \hline
+   44 & 55 & 66 \\ \hline
+   77 & 88 & 99 \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+
+\section{Ejercicio}
+
+Departamento de la República del Paraguay.\\
+
+\begin{tabular}{|l|l|l|r}
+\hline
+    1 & \textbf{Dto Alto Paraguay} & Alto Paraguayo \\ \hline
+    2 & \textbf{Dpto Alto Parana} & Alto Paranaense \\ \hline
+    3 & \textbf{Dpto Guaira } & Guaireño \\ \hline
+    4 & \textbf{Dpto Misiones} & Misionero \\ \hline
+    5 & \textbf{Dpto Caaguazu} & Caaguazeño \\ \hline
+    6 & \textbf{Dpto Caazapa} & Caazapeño \\ \hline
+    7 & \textbf{Dpto Concepción} & Concepcionero \\ \hline
+    8 & \textbf{Dpto San Pedro} & San Pedrano \\ \hline
+    9 & \textbf{Dpto Itapua} & Itapuense \\ \hline
+    10 & \textbf{Dpto Paraguari} & Paraguariense \\ \hline
+\end{tabular} 
+\end{document}
+
+
+    
+
+
+
+
+
+
+
+
+
+
